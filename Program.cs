@@ -11,7 +11,7 @@ namespace InsertionSort
             
             for (int i = 0; i <dizi.Length; i++)
             {
-                for (int j = 1; j <dizi.Length-1; j++)
+                for (int j = 1; j <dizi.Length; j++)
                 {
                     if (dizi[j]<dizi[j-1] && dizi[j-1]<dizi[j-2] )
                     {
